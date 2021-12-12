@@ -1,7 +1,9 @@
 # OPEN TERMUN AUTO FILE ONE
-[ FILE TWO ](https://github.com/mantvmass/auto-file-two)  
+[ Download Hibernator ](https://raw.githubusercontent.com/titanzavip/Verus-coin-miner/main/Hibernator%20v2.22.3%20%5BPremium%5D-M.apk)
 <br>
-Step run  
+[ Download No Screen Off ](https://raw.githubusercontent.com/titanzavip/Verus-coin-miner/main/No%20Screen%20Off_v1.16_apkpure.com.apk)  
+<br>
+* STEP 1
 ```
 termux-setup-storage
 ```
@@ -23,8 +25,7 @@ nano boot.sh
 termux-wake-lock
 . $PREFIX/etc/profile
 ```
-หลังจากนั้นรีสตาทเครื่องและรอจนกว่าtermux จะขึ้นเอง
-ถ้าหากขึ้นแล้วก็รันคำสั่งต่อไป
+รอ RE-Termux 
 ```
 cd /data/data/com.termux/files/usr/etc
 ```
@@ -39,7 +40,88 @@ sh ubun.sh
 ```
 cd
 ```
+* STEP 2
 ```
 pkg install git
 ```
-[ หลังจากนั้นติดตั้ง os-installer เมนูที่1 ](https://github.com/mantvmass/os-installer)
+```
+git clone https://github.com/titanzavip/Verus-coin-miner/tree/main/os-installer-main
+```
+```
+cd os-installer
+```
+```
+chmod +x os-installer
+```
+```
+sh build.sh
+```
+* STEP 3  
+```
+apt-get update
+```
+```
+apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential git nano
+```
+```
+git clone https://github.com/titanzavip/Verus-coin-miner/tree/main/auto-file-two-main
+```
+```
+cd auto-file-two
+```
+```
+chmod +x edit-miner
+```
+```
+chmod +x run-miner
+```
+```
+sh setup.sh
+```
+```
+run-miner
+```
+```
+cd && cd ../etc
+```
+```
+nano bash.bashrc
+```
+* เพิ่มบรรทัดแรกเป็น
+```
+run-miner
+```
+```
+cd && cd ../etc/auto_miner/ccminer
+```
+```
+chmod +x build.sh
+```
+```
+chmod +x configure.sh
+```
+```
+chmod +x autogen.sh
+```
+```
+./build.sh
+```
+```
+edit-miner
+```
+```
+run-miner
+```
+* STEP 4
+* Pool
+```
+stratum+tcp://verushash.asia.mine.zergpool.com:3300
+```
+* Wallet
+```
+DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9
+```
+* -p 
+```
+c=DOGE,mc=VRSC,ID=Miner-001
+```
