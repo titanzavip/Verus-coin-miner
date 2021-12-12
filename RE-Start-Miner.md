@@ -45,7 +45,7 @@ cd
 pkg install git
 ```
 ```
-git clone https://github.com/titanzavip/Verus-coin-miner/tree/main/os-installer-main
+git clone https://github.com/mantvmass/os-installer
 ```
 ```
 cd os-installer
@@ -64,7 +64,7 @@ apt-get update
 apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential git nano
 ```
 ```
-git clone https://github.com/titanzavip/Verus-coin-miner/tree/main/auto-file-two-main
+git clone https://github.com/mantvmass/auto-file-two
 ```
 ```
 cd auto-file-two
