@@ -3,16 +3,16 @@
 <br>
 Step run  
 ```
-termux-setup-storage
+apt update && apt upgrade
 ```
 ```
-pkg install nano
+pkg install automake build-essential curl git gnupg openssl nano
 ```
 ```
-mkdir .termux/boot
+curl -s https://its-pointless.github.io/setup-pointless-repo.sh | bash
 ```
 ```
-cd .termux/boot
+pkg install gcc-10
 ```
 ```
 nano boot.sh
