@@ -8,7 +8,16 @@
 termux-setup-storage
 ```
 ```
-pkg install nano && mkdir .termux/boot && cd .termux/boot && nano boot.sh
+pkg install nano
+```
+```
+mkdir .termux/boot
+```
+```
+cd .termux/boot
+```
+```
+nano boot.sh
 ```
 เพิ่มข้อมูลนี้ใน boot.sh
 ```
