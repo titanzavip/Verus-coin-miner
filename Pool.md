@@ -1,3 +1,12 @@
+Pool
+```
 stratum+tcp://verushash.asia.mine.zergpool.com:3300
+```
+Wallet
+```
 DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9
--p c=DOGE,mc=VRSC,ID=Miner-01
+```
+-p 
+```
+c=DOGE,mc=VRSC,ID=Miner-01
+```
