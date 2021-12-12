@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /data/data/com.termux/files/usr/etc/os-install
+python os-installer.py

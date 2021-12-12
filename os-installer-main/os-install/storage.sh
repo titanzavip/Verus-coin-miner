@@ -1,0 +1,2 @@
+cd
+termux-setup-storage
