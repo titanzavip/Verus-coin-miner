@@ -9,19 +9,19 @@ termux-setup-storage
 apt-get update && apt-get upgrade -y
 ```
 ```
-apt-get install update wget
+apt-get install wget
 ```
 ```
-apt-get install update proot
+apt-get install proot
 ```
 ```
-apt-get install update git
+apt-get install git
 ```
 ```
-apt-get install update nano
+apt-get install nano
 ```
 ```
-apt-get install update zip
+apt-get install zip
 ```
 ```
 pkg install upgrade
