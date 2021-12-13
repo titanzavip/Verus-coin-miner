@@ -1,41 +1,65 @@
 * XMR Miner
 * Run Commands
 
-```
-pkg install upgrade
-```
-```
-apt install git
-```
-```
-apt install wget
-```
-```
-apt install proot
-```
+* STEP 1
 ```
 termux-setup-storage
 ```
 ```
-git clone https://github.com/Neo-Oli/termux-ubuntu
+pkg install nano
 ```
 ```
-cd termux-ubuntu
+mkdir .termux/boot
 ```
 ```
-chmod +x ubuntu.sh (optional)
+cd .termux/boot
 ```
 ```
-sh ubuntu.sh (optional)
+nano boot.sh
+```
+เพิ่มข้อมูลนี้ใน boot.sh
+```
+#!/data/data/com.termux/files/usr/bin/sh
+termux-wake-lock
+. $PREFIX/etc/profile
+```
+รอ RE-Termux 
+```
+cd /data/data/com.termux/files/usr/etc
 ```
 ```
-./start-ubuntu.sh (optional)
+nano profile
+```
+เพิ่มข้อมูลนี้ใน profile บรรทัดสุดท้าย
+```
+cd && cd /data/data/com.termux/files/usr/etc/os-install
+sh ubun.sh
 ```
 ```
-apt update
+cd
+```
+* STEP 2
+```
+pkg install git
 ```
 ```
-apt upgrade
+git clone https://github.com/mantvmass/os-installer
+```
+```
+cd os-installer
+```
+```
+chmod +x os-installer
+```
+```
+sh build.sh
+```
+* STEP 3  
+```
+apt-get update
+```
+```
+apt-get upgrade
 ```
 ```
 Install cmake
