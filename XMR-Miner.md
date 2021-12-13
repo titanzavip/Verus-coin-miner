@@ -24,6 +24,9 @@ apt-get install nano
 apt-get install zip
 ```
 ```
+wget https://github.com/dikripto/xmrg/archive/refs/heads/master.zip
+```
+```
 pkg install upgrade
 ```
 ```
