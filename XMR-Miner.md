@@ -6,63 +6,22 @@
 termux-setup-storage
 ```
 ```
-pkg install nano
+apt-get update && apt-get upgrade -y
 ```
 ```
-mkdir .termux/boot
+apt-get install update wget
 ```
 ```
-cd .termux/boot
+apt-get install update proot
 ```
 ```
-nano boot.sh
-```
-เพิ่มข้อมูลนี้ใน boot.sh
-```
-#!/data/data/com.termux/files/usr/bin/sh
-termux-wake-lock
-. $PREFIX/etc/profile
-```
-รอ RE-Termux 
-```
-cd /data/data/com.termux/files/usr/etc
+apt-get install update git
 ```
 ```
-nano profile
-```
-เพิ่มข้อมูลนี้ใน profile บรรทัดสุดท้าย
-```
-cd && cd /data/data/com.termux/files/usr/etc/os-install
-sh ubun.sh
+apt-get install update nano
 ```
 ```
-cd
-```
-* STEP 2
-```
-pkg install git
-```
-```
-git clone https://github.com/mantvmass/os-installer
-```
-```
-cd os-installer
-```
-```
-chmod +x os-installer
-```
-```
-sh build.sh
-```
-* STEP 3 
-```
-termux-setup-storage
-```
-```
-apt update && apt upgrade
-```
-```
-pkg install update
+apt-get install update zip
 ```
 ```
 pkg install upgrade
@@ -83,10 +42,13 @@ git clone https://github.com/Neo-Oli/termux-ubuntu
 cd termux-ubuntu
 ```
 ```
-apt update
+chmod +x ubutu.sh
 ```
 ```
-apt upgrade
+/ubutu.sh -y
+```
+```
+./startubutu.sh
 ```
 ```
 Install cmake
