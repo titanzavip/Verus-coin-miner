@@ -69,7 +69,7 @@ mkdir build
 cd build
 ```
 ```
-cmake-DWITH_HWLOC%3DOFF ..
+cmake-DWITH_HWLOC=OFF ..
 ```
 ```
 make
