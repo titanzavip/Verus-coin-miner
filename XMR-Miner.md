@@ -56,16 +56,37 @@ sh build.sh
 ```
 * STEP 3  
 ```
-apt-get update
+pkg install update
 ```
 ```
-apt-get upgrade
+pkg install upgrade
 ```
 ```
-apt-get install cmake
+apt install git
 ```
 ```
-apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev
+apt install wget
+```
+```
+apt install proot
+```
+```
+termux-setup-storage
+```
+```
+git clone https://github.com/Neo-Oli/termux-ubuntu 
+```
+```
+cd termux-ubuntu
+```
+```
+apt update
+```
+```
+apt upgrade
+```
+```
+Install cmake
 ```
 ```
 git clone https://github.com/xmrig/xmrig
@@ -80,13 +101,11 @@ mkdir build
 cd build
 ```
 ```
-cmake -DWITH_HWLOC=OFF ..
+cmake-DWITH_HWLOC%3DOFF ..
 ```
 ```
 make
 ```
-
-* Then RUN THE MINER
 ```
 /xmrig -o xmr-au1.nanopool.org:14433 -u 89z81VijZjFXaABwBAZ8W94X8h6zihFcbMHGDwCrGQSkf8hzwJUoZT9cGQzwtsMVakg1qwd5n3nS1hhErZnqFVsjTA7RSZP-tls-coin monero
 ```
