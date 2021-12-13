@@ -62,7 +62,9 @@ apt-get update
 apt-get upgrade
 ```
 ```
-Install cmake
+apt-get install cmake
+```
+apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev (cmd เพิ่มเติม)
 ```
 ```
 git clone https://github.com/xmrig/xmrig
