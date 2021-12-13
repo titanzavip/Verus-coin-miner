@@ -88,11 +88,5 @@ make
 
 * Then RUN THE MINER
 ```
-./xmrig -o xmr-asia1.nanopool.org:14433
+/xmrig -o xmr-au1.nanopool.org:14433 -u 89z81VijZjFXaABwBAZ8W94X8h6zihFcbMHGDwCrGQSkf8hzwJUoZT9cGQzwtsMVakg1qwd5n3nS1hhErZnqFVsjTA7RSZP-tls-coin monero
 ```
--u
-```
-89z81VijZjFXaABwBAZ8W94X8h6zihFcbMHGDwCrGQSkf8hzwJUoZT9cGQzwtsMVakg1qwd5n3nS1hhErZnqFVsjTA7RSZP
-```
---tls --coin monero
-
