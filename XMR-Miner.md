@@ -59,6 +59,9 @@ sh build.sh
 termux-setup-storage
 ```
 ```
+apt update && apt upgrade
+```
+```
 pkg install update
 ```
 ```
