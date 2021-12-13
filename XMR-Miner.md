@@ -54,7 +54,10 @@ chmod +x os-installer
 ```
 sh build.sh
 ```
-* STEP 3  
+* STEP 3 
+```
+termux-setup-storage
+```
 ```
 pkg install update
 ```
@@ -69,9 +72,6 @@ apt install wget
 ```
 ```
 apt install proot
-```
-```
-termux-setup-storage
 ```
 ```
 git clone https://github.com/Neo-Oli/termux-ubuntu 
