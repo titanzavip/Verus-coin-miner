@@ -29,7 +29,7 @@ def run():
         password = loads['Pass']
         cpu = loads['Cpu']
     print(pool, wallet, password, cpu)
-    os.system(f"cd ccminer && ./ccminer -a verus -o {pool} -u {wallet} -p {password} -t {cpu}")
+    os.system(f"cd ccminer && ./ccminer -a equihash -o {pool} -u {wallet} -p {password} -t {cpu}")
 
 def set_miner():
     banner()
