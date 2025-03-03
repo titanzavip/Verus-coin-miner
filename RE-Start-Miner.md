@@ -45,7 +45,7 @@ cd
 pkg install git
 ```
 ```
-git clone https://github.com/mantvmass/os-installer
+git clone https://github.com/titanzavip/os-installer.git
 ```
 ```
 cd os-installer
